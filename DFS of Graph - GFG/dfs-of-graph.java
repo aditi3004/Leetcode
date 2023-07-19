@@ -58,6 +58,8 @@ class Solution {
                 //we dont need to mark vis true because that is
                 //happening above when the recursion is called
             }
+            
+            if(it==null) return;
         }
     }
 }

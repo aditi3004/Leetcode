@@ -133,9 +133,9 @@ class Solution{
     
     public int helper(Node root){
         if(root==null) return 0;
+        int sum=root.data;
         int left=helper(root.left);
         int right=helper(root.right);
-        int sum=root.data;
         root.data=left+right;
         
         return sum+left+right;

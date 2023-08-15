@@ -52,7 +52,12 @@ class Solution{
             
             sum=sum+arr.get(i);
             f(arr,ans,i+1,sum);
-            sum=sum-arr.get(i);
+            sum=sum-arr.get(i);//jo element recursion me se gaya tha add hone wahi subtract
+            // vahi subtract karenge sum me ,because i as a parameter will fetch that element
+            
+            
+            
+            
         }
     }
 }
